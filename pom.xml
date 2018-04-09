@@ -50,6 +50,15 @@
                <target>1.8</target>
            </configuration>
        </plugin>
+       <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>2.4</version>
+          <configuration>
+               <outputDirectory>/home/nmatovu/ide/apache-tomcat-8.5.29/webapps/</outputDirectory>
+               <failOnMissingWebXml>false</failOnMissingWebXml>
+          </configuration>
+       </plugin>
     </plugins>
   </build>
 </project>
